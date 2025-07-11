@@ -18,7 +18,7 @@ export default function EmployeeTable() {
   return (
     <Container>
       <Card className="table-card shadow-lg p-4 mt-4">
-        <h2 className="mb-4 text-center text-primary fw-bold">👥 Employee Directory</h2>
+        <h2 className="mb-4 text-center text-primary fw-bold">👥 Employee Data</h2>
         <Table responsive bordered hover className="employee-table">
           <thead>
             <tr>
@@ -51,7 +51,7 @@ export default function EmployeeTable() {
                       size="sm"
                       className="action-btn"
                     >
-                      ✏️ Edit
+                      ✏️
                     </Button>
                     <Button
                       variant="outline-danger"
@@ -59,7 +59,7 @@ export default function EmployeeTable() {
                       className="action-btn"
                       onClick={() => dispatch(deleteEmployee(emp.id))}
                     >
-                      🗑️ Delete
+                      🗑️
                     </Button>
                   </div>
                 </td>

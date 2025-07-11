@@ -20,7 +20,7 @@ export default function Navigation() {
             {user && (
               <>
                 <Nav.Link as={Link} to="/" className="nav-link-custom">
-                  📋 Employee Table
+                  📋 Employee Data
                 </Nav.Link>
                 <Nav.Link as={Link} to="/add" className="nav-link-custom">
                   ➕ Add Employee
