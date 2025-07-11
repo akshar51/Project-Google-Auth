@@ -31,7 +31,7 @@ export default function Navigation() {
                   className="ms-3"
                   onClick={() => auth.signOut()}
                 >
-                  🔒 Logout
+                  🔒Logout
                 </Button>
               </>
             )}
