@@ -36,7 +36,7 @@ export default function SignIn() {
         <h4 className="mb-3 text-center">Welcome Back</h4>
         <Form onSubmit={handleEmailLogin}>
           <Form.Group className="mb-3">
-            <Form.Label>Email</Form.Label>
+            <Form.Label>Email : </Form.Label>
             <Form.Control
               name="email"
               type="email"
@@ -46,7 +46,7 @@ export default function SignIn() {
             />
           </Form.Group>
           <Form.Group className="mb-4">
-            <Form.Label>Password</Form.Label>
+            <Form.Label>Password : </Form.Label>
             <Form.Control
               name="password"
               type="password"
@@ -56,6 +56,7 @@ export default function SignIn() {
             />
           </Form.Group>
           <Button type="submit" className="w-100 mb-2">Sign In</Button>
+          <p className='text-center'>-----------------  OR  -----------------</p>
           <Button variant="outline-danger" className="w-100 mb-2" onClick={handleGoogleLogin}>
             Sign in with Google
           </Button>
