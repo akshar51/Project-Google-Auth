@@ -1,7 +1,7 @@
 /* Smooth gradient background */
 .form-page {
   height: 100vh;
-  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  background-color: rgb(30, 30, 30) !important;
   padding: 2rem;
 }
 

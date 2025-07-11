@@ -11,7 +11,7 @@ export default function Navigation() {
     <Navbar expand="lg" className="custom-navbar shadow-sm py-3">
       <Container>
         <Navbar.Brand as={Link} to="/" className="nav-brand-text">
-          <i className="bi bi-person-badge-fill me-2"></i>EmpManager
+          <i className="bi bi-person-badge-fill me-2"></i>Management-System
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="main-navbar" />

@@ -17,7 +17,7 @@ export default function EmployeeTable() {
 
   return (
     <Container>
-      <Card className="table-card shadow-lg p-4">
+      <Card className="table-card shadow-lg p-4 mt-4">
         <h2 className="mb-4 text-center text-primary fw-bold">👥 Employee Directory</h2>
         <Table responsive bordered hover className="employee-table">
           <thead>
