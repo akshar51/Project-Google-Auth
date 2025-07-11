@@ -34,6 +34,10 @@
   box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
 }
 
+.form-control-custom::placeholder{
+  color: rgb(117, 117, 117) !important;
+}
+
 /* Stylish Submit Button */
 .btn-glass {
   background: linear-gradient(to right, #00c6ff, #0072ff);

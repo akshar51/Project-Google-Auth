@@ -34,17 +34,17 @@ export default function EmployeeForm() {
 
  return (
   <div className="form-page d-flex justify-content-center align-items-center">
-    <Card className="glass-card shadow-lg p-4">
+    <Card className="glass-card shadow-lg p-4" style={{backgroundColor : "transparent",color:"white",border:"1px solid #a3a3a3"}}>
       <h3 className="text-center mb-4 fw-bold text-primary">
         {id ? '✏️ Update' : '➕ Add'} Employee
       </h3>
 
-      <Form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit} >
         {['name', 'email', 'role', 'salary'].map((k, i) => (
-          <Form.Group className="mb-4" key={i}>
-            <Form.Label className="form-label-custom">{k.toUpperCase()}</Form.Label>
+          <Form.Group className="mb-4" key={i} >
+            <Form.Label className="form-label-custom text-white">{k.toUpperCase()}</Form.Label>
             <Form.Control
-              className="form-control-custom"
+              className="form-control-custom bg-transparent"
               name={k}
               value={form[k] ?? ''}
               onChange={handleChange}
